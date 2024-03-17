@@ -1,0 +1,41 @@
+.container {
+  width: 100%;
+  max-width: 1700px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.sales {
+  max-width: 1680px;
+  height: 100%;
+  margin-bottom: 162px;
+}
+.sales-head {
+  padding-top: 50px;
+  margin-bottom: 122px;
+  margin-left: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sales-text {
+  font-family: "Forum";
+  font-size: 50px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.sales-content {
+  max-width: 1330px;
+  margin: auto;
+}
+.sales-main__look {
+  margin-left: 750px;
+  width: 142px;
+  height: 29px;
+}
+.sales-main__lookall {
+  color: #4567aa;
+  font-family: "Hind Madurai";
+  font-size: 20px;
+  font-weight: 100;
+}

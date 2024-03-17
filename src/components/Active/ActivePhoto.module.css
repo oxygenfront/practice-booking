@@ -1,0 +1,120 @@
+.container {
+  width: 100%;
+  max-width: 1700px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.active-weekend__items_bottom {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.active-weekend__items_bottom-item {
+  height: 460px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+}
+
+.active-weekend__items_bottom-item:nth-child(1) {
+  width: 683px;
+  background-image: url("../img/active-weekend image3.png");
+}
+
+.active-weekend__items_bottom-item:nth-child(2) {
+  width: 934px;
+  background-image: url("../img/active-weekend image4.png");
+}
+
+.active-weekend__items_item_bottom-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 42px;
+  background: white;
+  border-top-left-radius: 40px;
+  height: 70px;
+}
+
+.active-weekend__items_item_bottom-button span {
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "Hind Madurai";
+}
+
+.active-weekend__items_item_bottom-button button {
+  margin-top: 10px;
+  width: 60px;
+  height: 60px;
+  background-color: #ff8139;
+  border-radius: 50%;
+  margin-left: 29px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1700px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.active-weekend__items_top {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+.active-weekend__items_top-item {
+  height: 460px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+}
+
+.active-weekend__items_top-item.btrr {
+  width: 1013px;
+  background-image: url("../img/active-weekend image1.png");
+  border-top-right-radius: 100px;
+}
+
+.active-weekend__items_top-item.btlr {
+  width: 607px;
+  background-image: url("../img/active-weekend image2.png");
+  border-top-left-radius: 100px;
+}
+
+.active-weekend__items_item_bottom-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 42px;
+  background: white;
+  border-top-left-radius: 40px;
+  height: 70px;
+}
+
+.active-weekend__items_item_bottom-button span {
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "Hind Madurai";
+}
+
+.active-weekend__items_item_bottom-button button {
+  margin-top: 10px;
+  width: 60px;
+  height: 60px;
+  background-color: #ff8139;
+  border-radius: 50%;
+  margin-left: 29px;
+}

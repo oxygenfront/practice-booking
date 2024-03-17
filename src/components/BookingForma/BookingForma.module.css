@@ -1,0 +1,65 @@
+.booking-forma {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 70px 32px 38px 38px;
+  max-width: 580px;
+  margin: auto auto 136px auto;
+  background-color: #ff8139;
+  height: 642px;
+}
+.booking-forma_input {
+  width: 504px;
+  height: 60px;
+  background-color: #ffffff;
+  font-size: 16px;
+}
+.booking-name {
+  padding: 16px 0 16px 18px;
+}
+.booking-forma_buttons {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 25px;
+  -moz-column-gap: 25px;
+  column-gap: 25px;
+}
+.booking-forma_buttons-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 240px;
+  height: 60px;
+  background-color: white;
+  font-family: var(--Hind);
+  font-size: 16px;
+}
+.booking-cal {
+  padding: 16px 19px 16px 18px;
+}
+.booking-forma_buttons__text {
+  padding-right: 50px;
+  font-family: var(--Hind);
+}
+.booking-forma_input input {
+  font-family: var(--Hind);
+  font-size: 16px;
+  margin: 20px auto 20px 19px;
+}
+.booking-forma_input input::-moz-placeholder {
+  color: black;
+}
+.booking-forma_input input::placeholder {
+  color: black;
+}
+.booking-forma_buttons-booking {
+  width: 100%;
+  height: 70px;
+  text-transform: uppercase;
+  background-color: #4666a9;
+  color: #ffffff;
+}
+.booking-forma_buttons__text {
+  font-family: var(--Hind);
+  font-size: 18px;
+}

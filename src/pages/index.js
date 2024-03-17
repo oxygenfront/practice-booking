@@ -1,0 +1,14 @@
+export { MainPage } from "./MainPage";
+export { HotelCards } from "./HotelCards";
+export { HotelsDescriptions } from "./HotelsDescriptions";
+export { ActiveRecreation } from "./ActiveRecreation";
+export { SportsDescription } from "./SportsDescription";
+export { NewsPage } from "./NewsPage";
+export { ArticlePage } from "./ArticlePage";
+export { SalesPage } from "./SalesPage";
+export { BookingPage } from "./BookingPage";
+export { Questions } from "./Questions";
+export { MapPage } from "./MapPage";
+export { Gallery } from "./Gallery";
+export { ReviewsPage } from "./ReviewsPage";
+export { ErrorPage } from "./ErrorPage";

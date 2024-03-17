@@ -1,0 +1,30 @@
+.container {
+    width: 100%;
+    max-width: 1700px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+.main {
+    background-image: url("./img/zastavka.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 850px;
+    width: 100%;
+    margin-bottom: 84px;
+  }
+  .main-text {
+    width: 865px;
+    height: 180px;
+    margin: auto;
+    margin-bottom: 420px;
+    text-transform: uppercase;
+  }
+  .main-text-head {
+    color: #ffffff;
+    font-size: 90px;
+    text-align: center;
+    padding-top: 196px;
+    font-family: "Forum", sans-serif;
+  }
+  

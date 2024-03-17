@@ -1,0 +1,42 @@
+.hotels {
+  margin-bottom: 145px;
+}
+.hotels-change {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto auto 50px auto;
+}
+.hotels-image1 {
+  width: 142px;
+  height: 211px;
+}
+.hotels-text {
+  font-family: "Forum", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 400;
+  font-size: 50px;
+  width: auto;
+  height: 50px;
+  margin-bottom: 25px;
+}
+.hotels-desc {
+  font-family: "Hind Madurai", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  width: 302px;
+  height: 29px;
+  text-align: center;
+}
+.hotels-image2 {
+  width: 140px;
+  height: 147px;
+}
+.hotels-cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -moz-column-gap: 45px;
+  column-gap: 45px;
+}

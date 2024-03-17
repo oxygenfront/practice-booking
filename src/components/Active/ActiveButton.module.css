@@ -1,0 +1,22 @@
+.container {
+  width: 100%;
+  max-width: 1700px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.active-weekend__buttons-item {
+  border: 1px solid #4567aa;
+  border-radius: 2px;
+  padding: 15px 40px;
+  color: #4567aa;
+  transition: all 0.2s linear;
+}
+.active-weekend__buttons-item span {
+  text-transform: uppercase;
+  font-size: 28px;
+}
+.active-weekend__buttons-item:hover {
+  background: #4567aa;
+  color: white;
+}

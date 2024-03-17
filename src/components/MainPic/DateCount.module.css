@@ -1,0 +1,64 @@
+.main-date {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1110px;
+  height: 86px;
+  background-color: white;
+  margin: auto;
+}
+.main-date .calendar {
+  padding: 30px 0 28px 40px;
+}
+.main-date-counter {
+  font-family: "Hind Madurai", sans-serif;
+  font-weight: 500;
+  height: 21px;
+}
+.main-date-btn1 {
+  background-color: #eeeeee;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  margin-right: 60px;
+}
+.main-date .line {
+  border-left: 0.98px solid #4567aa;
+  height: 86px;
+  margin-right: 40px;
+}
+.main-date .line1 {
+  border-left: 0.98px solid #4567aa;
+  height: 86px;
+}
+.main-date-btn2 {
+  background-color: #eeeeee;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+}
+.main-date-btn3 {
+  background-color: #eeeeee;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  margin-right: 25px;
+}
+.main-date-btn4 {
+  background-color: #4567aa;
+  border-radius: 50%;
+  width: 62px;
+  height: 62px;
+  margin: 12px 25px 12px 30px;
+}
+.main-date-text {
+  font-size: 18px;
+  font-family: "Hind Madurai", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding: 30px 38px 30px 25px;
+}
+.calendar3 {
+  width: 250px;
+  margin: 0 200px 0 650px;
+}
