@@ -37,7 +37,9 @@ export function ActiveSportsItems() {
 			</div>
 			<div className={styles['sales-main__look']}>
 				<Link to='/active'>
-					<button type='button' className={styles['sales-main__lookall']}>Смотреть все</button>
+					<button type='button' className={styles['sales-main__lookall']}>
+						Смотреть все
+					</button>
 				</Link>
 			</div>
 		</section>

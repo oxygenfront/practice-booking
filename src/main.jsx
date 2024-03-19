@@ -3,23 +3,23 @@ import ReactDOM from 'react-dom/client'
 import { Layout } from './Layout.jsx'
 
 import {
-	HotelCards,
 	ActiveRecreation,
-	NewsPage,
 	ArticlePage,
 	BookingPage,
 	ErrorPage,
 	Gallery,
+	HotelCards,
 	HotelsDescriptions,
 	MainPage,
 	MapPage,
+	NewsPage,
 	Questions,
 	ReviewsPage,
 	SalesPage,
 	SportsDescription,
 } from './pages'
 
-import { createBrowserRouter, RouterProvider as Router } from 'react-router-dom'
+import { RouterProvider as Router, createBrowserRouter } from 'react-router-dom'
 
 const router = createBrowserRouter([
 	{
