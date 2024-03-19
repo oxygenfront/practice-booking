@@ -1,11 +1,10 @@
 export function Circle() {
-  return (
-    <div>
-      <div className="include-cercle"></div>
-      <div className="include-cercle"></div>
-      <div className="include-cercle"></div>
-      <div className="include-cercle"></div>
-    </div>
-  );
+	return (
+		<>
+			<div className='include-cercle' />
+			<div className='include-cercle' />
+			<div className='include-cercle' />
+			<div className='include-cercle' />
+		</>
+	)
 }
-

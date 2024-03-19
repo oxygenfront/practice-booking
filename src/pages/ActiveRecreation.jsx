@@ -1,14 +1,10 @@
-import {
-  ActiveSportsItems, SearchingTours,
-
-} from "../components/index.js";
+import { ActiveSportsItems, SearchingTours } from '../components/index.js'
 
 export function ActiveRecreation() {
-  return (
-    <>
-
-      <SearchingTours />
-      <ActiveSportsItems />
-    </>
-  );
+	return (
+		<>
+			<SearchingTours />
+			<ActiveSportsItems />
+		</>
+	)
 }

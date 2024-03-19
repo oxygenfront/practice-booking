@@ -1,8 +1,7 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import { Layout } from './Layout.jsx';
-import '../src/css/reset.css';
-import '../src/css/global.css';
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import { Layout } from './Layout.jsx'
+
 import {
 	HotelCards,
 	ActiveRecreation,
@@ -18,12 +17,9 @@ import {
 	ReviewsPage,
 	SalesPage,
 	SportsDescription,
-} from './pages';
+} from './pages'
 
-import {
-	createBrowserRouter,
-	RouterProvider as Router,
-} from 'react-router-dom';
+import { createBrowserRouter, RouterProvider as Router } from 'react-router-dom'
 
 const router = createBrowserRouter([
 	{
@@ -36,7 +32,7 @@ const router = createBrowserRouter([
 			},
 			{
 				path: 'hotels',
-        element: <HotelCards />,
+				element: <HotelCards />,
 			},
 			{
 				path: 'active',
@@ -87,15 +83,15 @@ const router = createBrowserRouter([
 				element: <SalesPage />,
 			},
 			{
-				path: 'sports-description',
+				path: 'sport',
 				element: <SportsDescription />,
 			},
 		],
 	},
-]);
+])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
 	<React.StrictMode>
 		<Router router={router} />
 	</React.StrictMode>
-);
+)

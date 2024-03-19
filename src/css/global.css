@@ -1,7 +1,14 @@
 :root {
-  --primary-color:#4567AA;
-  --seconadary-color:#3333;
-  --white-color-back:#fff;
-  --Forum:"Forum", sans-serif;
-  --Hind:"Hind Madurai", sans-serif;
+  --primary-color: #4567aa;
+  --seconadary-color: #3333;
+  --white-color-back: #fff;
+  --Forum: "Forum", sans-serif;
+  --Hind: "Hind Madurai", sans-serif;
+}
+.container {
+  width: 100%;
+  max-width: 1700px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
 }
