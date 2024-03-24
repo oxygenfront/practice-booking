@@ -1,4 +1,5 @@
-import { SearchingTours } from '../components/index.js'
+import { SearchingTours } from '../../components/index.js'
+// import styles from './ErrorPage.module.css'
 export function ErrorPage() {
 	return (
 		<>

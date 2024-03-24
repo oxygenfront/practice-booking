@@ -1,5 +1,5 @@
-import { SearchingTours } from '../components/index.js'
-
+import { SearchingTours } from '../../components/index.js'
+// import styles from "./MapPage.module.css"
 export function MapPage() {
 	return (
 		<>

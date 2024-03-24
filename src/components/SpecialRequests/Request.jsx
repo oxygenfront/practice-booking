@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom'
-// import React from 'react'
 import styles from './Request.module.css'
 export function Request() {
 	return (
@@ -14,7 +13,6 @@ export function Request() {
 						единоразово при размещении.
 					</p>
 					<Link to='/sales'>
-						{' '}
 						<button type='button' className={styles['sales-main__btn']}>
 							подробнее
 						</button>

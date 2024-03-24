@@ -1,4 +1,5 @@
-import { Card, SearchingTours } from '../components/index.js'
+import { Card, SearchingTours } from '../../components/index.js'
+// import styles from "./HotelCards.module.css"
 export function HotelCards() {
 	return (
 		<>

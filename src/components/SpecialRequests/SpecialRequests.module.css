@@ -6,7 +6,7 @@
 .sales-head {
   padding-top: 50px;
   margin-bottom: 122px;
-  margin-left: 140px;
+  /* margin-left: 140px; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -18,7 +18,7 @@
   text-align: center;
 }
 .sales-content {
-  max-width: 1330px;
+  /* max-width: 1330px; */
   margin: auto;
 }
 .sales-main__look {

@@ -5,8 +5,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 250px;
-  margin-bottom: 80px;
+  margin:auto auto 80px auto;
 }
 .video-text {
   width: 730px;
@@ -17,12 +16,12 @@
   text-align: center;
 }
 .video-apples {
-  margin-left: 125px;
-  margin-bottom: 160px;
+  margin: auto auto 160px auto;
+  /* margin-bottom: 160px; */
 }
 .video-under {
   border: #4567aa 2px solid;
   width: 1680px;
-  margin-left: 125px;
+  /* margin-left: 125px; */
   margin-bottom: 50px;
 }

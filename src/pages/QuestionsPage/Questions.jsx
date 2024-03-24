@@ -1,5 +1,5 @@
-import { BookingForma, SearchingTours } from '../components'
-
+import { BookingForma, SearchingTours } from '../../components'
+// import styles from "./Questions.module.css"
 export function Questions() {
 	return (
 		<div>

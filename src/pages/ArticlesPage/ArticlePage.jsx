@@ -1,5 +1,5 @@
-import { SearchingTours } from '../components'
-
+import { SearchingTours } from '../../components'
+// import styles from "./ArticlePage.module.css"
 export function ArticlePage() {
 	return (
 		<div>

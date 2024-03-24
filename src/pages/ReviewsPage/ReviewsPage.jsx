@@ -1,5 +1,5 @@
-import { SearchingTours, StarsBlock } from '../components/index.js'
-
+import { SearchingTours, StarsBlock } from '../../components/index.js'
+// import styles from "./ReviewsPage.module.css"
 export function ReviewsPage() {
 	return (
 		<>

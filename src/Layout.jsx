@@ -5,7 +5,9 @@ import { Header } from './components'
 export function Layout() {
 	return (
 		<>
-			<div className="container"><Header /></div>
+			<div className='container'>
+				<Header />
+			</div>
 			<div className='container'>
 				<Outlet />
 			</div>
