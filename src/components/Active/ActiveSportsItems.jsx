@@ -1,9 +1,9 @@
-import { Link, useLocation } from 'react-router-dom'
-import { ActiveButton } from './ActiveButton'
-import { ActivePhoto } from './ActivePhoto'
-import styles from './ActiveSportsItem.module.css'
+import { Link, useLocation } from 'react-router-dom';
+import { ActiveButton } from './ActiveButton';
+import { ActivePhoto } from './ActivePhoto';
+import styles from './ActiveSportsItem.module.css';
 export function ActiveSportsItems() {
-	const { pathname } = useLocation()
+	const { pathname } = useLocation();
 	return (
 		<section className={styles['active-weekend']}>
 			<div className={styles['active-weekend__container']}>
@@ -43,5 +43,5 @@ export function ActiveSportsItems() {
 				</Link>
 			</div>
 		</section>
-	)
+	);
 }
