@@ -16,11 +16,16 @@ export function DateCount() {
 		}
 	}
 	return (
+		// FIXME don't use div a root element, instead of this use a <></> or React.Fragment
 		<div>
 			<div className={styles['main-date']}>
 				<img src='../img/calendar.svg' alt='' className='calendar' />
 				<p className={styles['main-date-text']}>дата заезда - дата выезда</p>
-				<button type='button' onClick={handelOutsideClick} className='main-date-btn1'>
+				<button
+					type='button'
+					onClick={handelOutsideClick}
+					className='main-date-btn1'
+				>
 					<img src='../img/chevron.svg' alt='' className='chevron' />
 				</button>
 				<div className={styles.line} />
@@ -28,7 +33,11 @@ export function DateCount() {
 					<img src='../img/people.svg' alt='' className='people' />
 				</button>
 				<p className={styles['main-date-text']}>кол-во человек</p>
-				<button type='button' onClick={() => onClickCount('+')} className={styles['main-date-btn2']}>
+				<button
+					type='button'
+					onClick={() => onClickCount('+')}
+					className={styles['main-date-btn2']}
+				>
 					<img src='../img/plus.svg' alt='' className='plus' />
 				</button>
 				<p className={styles['main-date-counter']}>{count}</p>
@@ -47,5 +56,5 @@ export function DateCount() {
 			</div>
 			{isOpen && <Calendar className={styles.calendar3} />}
 		</div>
-	)
+	);
 }

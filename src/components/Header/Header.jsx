@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import styles from './Header.module.css'
 export function Header() {
 	return (
+		// FIXME don't use div a root element, instead of this use a <></> or React.Fragment
 		<div className='section'>
 			<div className={styles.header}>
 				<div className={styles.lines}>
@@ -10,7 +11,11 @@ export function Header() {
 				</div>
 				<Link to='/'>
 					<div className={styles['header-logo']}>
-						<img className={styles['header-image']} src='/img/logo.svg' alt='' />
+						<img
+							className={styles['header-image']}
+							src='/img/logo.svg'
+							alt=''
+						/>
 					</div>
 				</Link>
 				<div className={styles['header-logo2']}>
@@ -22,5 +27,5 @@ export function Header() {
 				</div>
 			</div>
 		</div>
-	)
+	);
 }

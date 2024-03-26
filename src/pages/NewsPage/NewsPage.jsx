@@ -1,4 +1,4 @@
-import { News } from '../../components/News/News'
+import { News } from '../../components/News/News';
 // import styles from "./NewsPage.module.css"
 export function NewsPage() {
 	return (
@@ -6,6 +6,7 @@ export function NewsPage() {
 			<div className='news-header'>
 				<div className='news-header__text'>Новости</div>
 			</div>
+			{/* TODO maybe you want a list of cards here and not default blocks? And you use blocks without root element (div or fragment)*/}
 			<News />
 			<News />
 			<News />
@@ -24,5 +25,5 @@ export function NewsPage() {
 				</div>
 			</div>
 		</section>
-	)
+	);
 }

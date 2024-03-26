@@ -2,6 +2,7 @@
 import styles from './Video.module.css'
 export function VideoView() {
 	return (
+		// FIXME don't use div a root element, instead of this use a <></> or React.Fragment
 		<div>
 			<section className={styles.video}>
 				<div className={styles['video-head']}>

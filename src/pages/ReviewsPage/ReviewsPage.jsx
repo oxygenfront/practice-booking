@@ -12,6 +12,7 @@ export function ReviewsPage() {
 				</div>
 			</section>
 			<section className='reviews'>
+				{/* TODO maybe you want a list of cards here and not default blocks ? */}
 				<StarsBlock />
 				<StarsBlock />
 				<StarsBlock />
@@ -20,5 +21,5 @@ export function ReviewsPage() {
 				<StarsBlock />
 			</section>
 		</>
-	)
+	);
 }

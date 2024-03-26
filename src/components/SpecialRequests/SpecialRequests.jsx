@@ -4,6 +4,7 @@ import { Request } from './Request'
 import styles from './SpecialRequests.module.css'
 export function SpecialRequests() {
 	return (
+		// FIXME don't use div a root element, instead of this use a <></> or React.Fragment
 		<div>
 			<div className={styles.sales}>
 				<div className={styles['sales-head']}>
@@ -29,5 +30,5 @@ export function SpecialRequests() {
 				</div>
 			</div>
 		</div>
-	)
+	);
 }

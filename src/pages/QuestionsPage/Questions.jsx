@@ -1,7 +1,8 @@
-import { BookingForma, SearchingTours } from '../../components'
+import { BookingForma, SearchingTours } from '../../components';
 // import styles from "./Questions.module.css"
 export function Questions() {
 	return (
+		// FIXME don't use div a root element, instead of this use a <></> or React.Fragment
 		<div>
 			<section className='section'>
 				<div className='main__container'>
@@ -15,13 +16,21 @@ export function Questions() {
 				<div className='about-cont'>
 					<div className='about-main'>
 						<div className='about-loc'>
-							<img src='/img/location.svg' alt='' className='about-loc__image' />
+							<img
+								src='/img/location.svg'
+								alt=''
+								className='about-loc__image'
+							/>
 							<div className='about-loc__text1'>
 								298690, Россия, Крым, г. Ялта, пгт Форос, Форосский спуск, 1
 							</div>
 						</div>
 						<div className='about-loc'>
-							<img src='/img/telephone.svg' alt='' className='about-loc__image' />
+							<img
+								src='/img/telephone.svg'
+								alt=''
+								className='about-loc__image'
+							/>
 							<div className='about-loc__text2'>+7 (912) 038-80-44</div>
 						</div>
 						<div className='about-loc'>
@@ -33,5 +42,5 @@ export function Questions() {
 				</div>
 			</div>
 		</div>
-	)
+	);
 }
